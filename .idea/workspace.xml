@@ -26,25 +26,34 @@
       <file leaf-file-name="user.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/modules/admin/controllers/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="48" selection-start="631" selection-end="631" vertical-scroll-proportion="-13.076923" vertical-offset="153" max-vertical-offset="1513">
+            <state line="27" column="37" selection-start="0" selection-end="3369" vertical-scroll-proportion="-17.653847" vertical-offset="0" max-vertical-offset="1513">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_model.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="user_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/modules/admin/models/user_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="39" selection-start="488" selection-end="488" vertical-scroll-proportion="-0.09357798" vertical-offset="408" max-vertical-offset="1003">
+            <state line="29" column="5" selection-start="0" selection-end="1272" vertical-scroll-proportion="-18.961538" vertical-offset="0" max-vertical-offset="1003">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="brand.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="brand.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/modules/admin/controllers/brand.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="204">
+            <state line="15" column="5" selection-start="269" selection-end="269" vertical-scroll-proportion="0.4678899" vertical-offset="0" max-vertical-offset="545">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bran_model.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/modules/admin/models/bran_model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="5" selection-start="587" selection-end="587" vertical-scroll-proportion="-15.730769" vertical-offset="16" max-vertical-offset="561">
               <folding />
             </state>
           </provider>
@@ -104,11 +113,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/modules/admin/views/layout/layout.php" />
         <option value="$PROJECT_DIR$/application/core/AdminBaseController.php" />
         <option value="$PROJECT_DIR$/application/core/HomeBaseController.php" />
         <option value="$PROJECT_DIR$/application/modules/admin/controllers/bran.php" />
-        <option value="$PROJECT_DIR$/application/modules/admin/controllers/brand.php" />
         <option value="$PROJECT_DIR$/application/modules/admin/views/user/loginview.php" />
         <option value="$PROJECT_DIR$/application/config/database.php" />
         <option value="$PROJECT_DIR$/application/config/autoload.php" />
@@ -120,6 +127,8 @@
         <option value="$PROJECT_DIR$/application/modules/admin/controllers/hghg.php" />
         <option value="$PROJECT_DIR$/application/modules/admin/models/user_model.php" />
         <option value="$PROJECT_DIR$/application/modules/admin/controllers/user.php" />
+        <option value="$PROJECT_DIR$/application/modules/admin/models/bran_model.php" />
+        <option value="$PROJECT_DIR$/application/modules/admin/controllers/brand.php" />
       </list>
     </option>
   </component>
@@ -223,34 +232,8 @@
               <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mockprojectfr06" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mockprojectfr06" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
+              <option name="myItemId" value="welcome" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -277,40 +260,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mockprojectfr06" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mockprojectfr06" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -529,20 +478,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/admin/controllers/hghg.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="1" selection-start="82" selection-end="82" vertical-scroll-proportion="0.18715596" vertical-offset="0" max-vertical-offset="545">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/admin/controllers/brand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="571">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/admin/views/user/listuser.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="571">
@@ -552,14 +487,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/admin/controllers/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="48" selection-start="631" selection-end="631" vertical-scroll-proportion="-13.076923" vertical-offset="153" max-vertical-offset="1513">
+        <state line="27" column="37" selection-start="0" selection-end="3369" vertical-scroll-proportion="-17.653847" vertical-offset="0" max-vertical-offset="1513">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/admin/models/user_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="39" selection-start="488" selection-end="488" vertical-scroll-proportion="-0.09357798" vertical-offset="408" max-vertical-offset="1003">
+        <state line="29" column="5" selection-start="0" selection-end="1272" vertical-scroll-proportion="-18.961538" vertical-offset="0" max-vertical-offset="1003">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/admin/models/bran_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="5" selection-start="587" selection-end="587" vertical-scroll-proportion="-15.730769" vertical-offset="16" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/admin/controllers/brand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="5" selection-start="269" selection-end="269" vertical-scroll-proportion="0.4678899" vertical-offset="0" max-vertical-offset="545">
           <folding />
         </state>
       </provider>
