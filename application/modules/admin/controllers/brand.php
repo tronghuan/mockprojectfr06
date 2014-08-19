@@ -6,15 +6,24 @@
  * Date: 8/18/14
  * Time: 1:54 PM
  */
+<<<<<<< HEAD
 class brand extends CI_Controller{
     public function __construct(){
         parent::__construct();
         $this->load->model("brand_model");
         $this->load->helper('url', 'form');
+=======
+class Brand extends AdminBaseController{
+    function __construct(){
+        parent::__construct();
+        $this->load->helper("url");
+
+>>>>>>> origin/ThinhLD
     }
     public function index(){
 
     }
+<<<<<<< HEAD
     public function search(){
         $brands = $this->brand_model->get_all_brand();
         $result = array();
@@ -48,4 +57,28 @@ class brand extends CI_Controller{
         $this->load->view("brand/search_brand",$result);
         $this->load->view("layout/footer");
     }
+=======
+    public function delete(){
+        $id = $this->uri->segment(4);
+        $this->brand_model->del($id);
+        redirect(base_url()."admin/user/listbrand");
+    }
+    public function update(){
+        $id = $this->uri->segment(4);
+        if($this->input->post('submit') != NULL){
+        $name = $this->input->post('txt_name');
+        $desc = $this->input->post('txt_desc');
+        $data = array(
+            'brand_name' => $name,
+            'brand_desc' => $desc
+        );
+        $this->brand_model->update($data,$id);
+        redirect(base_url()."admin/brand/listbrand");
+    }
+        $this->load->view('layout/header');
+        $this->load->view('brand/update');
+        $this->load->view('layout/footer');
+    }
+
+>>>>>>> origin/ThinhLD
 }

@@ -34,7 +34,10 @@ class User_model extends CI_Model{
     public function get_order($column, $sortType = '', $limit = '', $start = ''){
 
     }
-    public function deleteUser($id){}
+    public function deleteUser($id){
+        $this->db->where($this->_primary,$id);
+        $this->db->delete($this->_table);
+    }
     public function updateUser($data, $usr_id = ''){
 
     }
