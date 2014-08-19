@@ -31,9 +31,9 @@ class Brand extends AdminBaseController{
         $this->brand_model->update($data,$id);
         redirect(base_url()."admin/brand/listbrand");
     }
-        $this->load->view('layout/header.php');
-        $this->load->view('brand/update.php');
-        $this->load->view('layout/footer.php');
+        $this->load->view('layout/header');
+        $this->load->view('brand/update');
+        $this->load->view('layout/footer');
     }
 
 }
