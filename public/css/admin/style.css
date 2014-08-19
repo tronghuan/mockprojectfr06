@@ -120,6 +120,38 @@ a {
     top: 5px;
     left: 200px;
 }
+#brand_search{
+    width: 500px;
+    height: auto;
+    margin: 10px auto auto;
+}
+#brand_search h3{
+    font-size: 14px;
+    font-weight: bold;
+    color: gray;
+}
+input#search{
+    line-height: 30px;
+}
+input#button{
+    width: 70px;
+    line-height: 30px;
+    margin: 10px auto;
+}
+#brand_search select{
+    width: 170px;
+    height: 32px;
+}
+#brand_search select option{
+    color: gray;
+}
+#tblbran_search tr{
+    border-bottem: 1px solid gray;
+
+}
+#tblbran_search tr td{
+    padding: 10px;
+}
 #footer {
     position: absolute;
     background: none repeat scroll 0% 0% #000;
