@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: TrongHua
+ * User: TrongHuan
  * Date: 8/18/14
  * Time: 1:54 PM
  */
@@ -25,7 +25,10 @@ class User extends AdminBaseController{
 
     }
     public function delete(){
-
+        $id = $this->uri->segment(4);
+        $this->user_model->del($id);
+        redirect(base_url()."admin/user/listuser");
+        exit();
     }
     public function update(){
 
