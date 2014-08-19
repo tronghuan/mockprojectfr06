@@ -3,9 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="64d614bb-8de0-47f0-99cd-5e5718bf2ab8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/admin/models/bran_model.php" afterPath="$PROJECT_DIR$/application/modules/admin/models/bran_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/admin/controllers/brand.php" afterPath="$PROJECT_DIR$/application/modules/admin/controllers/brand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/admin/models/brand_model.php" afterPath="$PROJECT_DIR$/application/modules/admin/models/brand_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/admin/views/brand/update.php" afterPath="$PROJECT_DIR$/application/modules/admin/views/brand/update.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/admin/controllers/user.php" afterPath="$PROJECT_DIR$/application/modules/admin/controllers/user.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/admin/models/user_model.php" afterPath="$PROJECT_DIR$/application/modules/admin/models/user_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <list id="9de58e0c-ac65-4e51-8b01-fbd18832bdca" name="Failed commit: Default" comment="Merge remote-tracking branch 'origin/ThinhLD'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;&#9;application/modules/admin/controllers/brand.php&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/admin/controllers/brand.php" afterPath="$PROJECT_DIR$/application/modules/admin/controllers/brand.php" />
     </list>
     <ignored path="mockprojectfr06.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,17 +35,19 @@
       <file leaf-file-name="user.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/modules/admin/controllers/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="0" selection-start="1711" selection-end="1711" vertical-scroll-proportion="-24.192308" vertical-offset="272" max-vertical-offset="1513">
+            <state line="54" column="0" selection-start="1726" selection-end="1726" vertical-scroll-proportion="-24.192308" vertical-offset="289" max-vertical-offset="1513">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="brand.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="brand.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/modules/admin/controllers/brand.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="30" selection-start="181" selection-end="181" vertical-scroll-proportion="11.019608" vertical-offset="715" max-vertical-offset="1309">
-              <folding />
+            <state line="54" column="43" selection-start="1829" selection-end="1829" vertical-scroll-proportion="0.68248177" vertical-offset="0" max-vertical-offset="799">
+              <folding>
+                <element signature="n#search#0;n#brand#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,7 +73,7 @@
       <file leaf-file-name="user_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/modules/admin/models/user_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="30" selection-start="188" selection-end="188" vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="1003">
+            <state line="10" column="0" selection-start="195" selection-end="195" vertical-scroll-proportion="-3.0" vertical-offset="17" max-vertical-offset="1020">
               <folding />
             </state>
           </provider>
@@ -76,16 +82,16 @@
       <file leaf-file-name="bran_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/modules/admin/models/bran_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="25" selection-start="152" selection-end="152" vertical-scroll-proportion="-2.1764705" vertical-offset="25" max-vertical-offset="629">
+            <state line="11" column="25" selection-start="258" selection-end="258" vertical-scroll-proportion="-2.1764705" vertical-offset="76" max-vertical-offset="680">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="brand_model.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="brand_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/modules/admin/models/brand_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="45" selection-start="586" selection-end="586" vertical-scroll-proportion="0.620438" vertical-offset="0" max-vertical-offset="548">
+            <state line="20" column="45" selection-start="586" selection-end="586" vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="527">
               <folding />
             </state>
           </provider>
@@ -139,10 +145,10 @@
         <option value="$PROJECT_DIR$/application/modules/admin/views/brand/search_brand.php" />
         <option value="$PROJECT_DIR$/public/css/admin/style.css" />
         <option value="$PROJECT_DIR$/application/modules/admin/views/layout/header.php" />
-        <option value="$PROJECT_DIR$/application/modules/admin/controllers/brand.php" />
         <option value="$PROJECT_DIR$/application/modules/admin/models/user_model.php" />
         <option value="$PROJECT_DIR$/application/modules/admin/models/bran_model.php" />
         <option value="$PROJECT_DIR$/application/modules/admin/models/brand_model.php" />
+        <option value="$PROJECT_DIR$/application/modules/admin/controllers/brand.php" />
       </list>
     </option>
   </component>
@@ -414,12 +420,13 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23572475" sideWeight="0.65479875" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23572475" sideWeight="0.6702786" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -429,7 +436,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34520122" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -443,7 +449,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Tao layout va cau truc thu muc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tao layout va cau truc thu muc" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/ThinhLD'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;&#9;application/modules/admin/controllers/brand.php&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/ThinhLD'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;&#9;application/modules/admin/controllers/brand.php&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -522,36 +529,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/admin/controllers/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="1711" selection-end="1711" vertical-scroll-proportion="-24.192308" vertical-offset="272" max-vertical-offset="1513">
+        <state line="54" column="0" selection-start="1726" selection-end="1726" vertical-scroll-proportion="-24.192308" vertical-offset="289" max-vertical-offset="1513">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/admin/models/user_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="30" selection-start="188" selection-end="188" vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="1003">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/admin/controllers/brand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="30" selection-start="181" selection-end="181" vertical-scroll-proportion="11.019608" vertical-offset="715" max-vertical-offset="1309">
+        <state line="10" column="0" selection-start="195" selection-end="195" vertical-scroll-proportion="-3.0" vertical-offset="17" max-vertical-offset="1020">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/admin/models/bran_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="25" selection-start="152" selection-end="152" vertical-scroll-proportion="-2.1764705" vertical-offset="25" max-vertical-offset="629">
+        <state line="11" column="25" selection-start="258" selection-end="258" vertical-scroll-proportion="-2.1764705" vertical-offset="76" max-vertical-offset="680">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/admin/models/brand_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="45" selection-start="586" selection-end="586" vertical-scroll-proportion="0.620438" vertical-offset="0" max-vertical-offset="548">
+        <state line="20" column="45" selection-start="586" selection-end="586" vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="527">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/admin/controllers/brand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="43" selection-start="1829" selection-end="1829" vertical-scroll-proportion="0.68248177" vertical-offset="0" max-vertical-offset="799">
+          <folding>
+            <element signature="n#search#0;n#brand#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

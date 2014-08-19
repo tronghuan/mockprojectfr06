@@ -15,15 +15,18 @@ class Brand_model extends CI_Model{
 
     }
     public function getOnce($id){
-        $this->db->where("brand_id = $id");
-        return $this->db->get($this->_table)->row_array();
+        $this->db->select('*');
+        $this->db->from('brand');
+        $this->db->where('brand_id', $data);
+        $query = $this->db->get();
+        $result = $query->result();
+        return $result;
     }
 
     public function delete($id){
-        $this->db->where($this->_primary,$id);
-        $this->db->delete($this->_table);
+
     }
-    public function update($data, $id){
+    public function update($id, $data){
         $this->db->where($this->_primary,$id);
         $this->db->update($this->_table, $data);
     }
