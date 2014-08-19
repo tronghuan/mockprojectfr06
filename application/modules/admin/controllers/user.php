@@ -26,7 +26,7 @@ class User extends AdminBaseController{
     }
     public function delete(){
         $id = $this->uri->segment(4);
-        $this->user_model->del($id);
+        $this->user_model->deleteUser($id);
         redirect(base_url()."admin/user/listuser");
         exit();
     }

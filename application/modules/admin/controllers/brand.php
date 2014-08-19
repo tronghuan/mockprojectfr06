@@ -25,8 +25,8 @@ class Brand extends AdminBaseController{
         $name = $this->input->post('txt_name');
         $desc = $this->input->post('txt_desc');
         $data = array(
-            'name' => $name,
-            'desc' => $desc
+            'brand_name' => $name,
+            'brand_desc' => $desc
         );
         $this->brand_model->update($data,$id);
         redirect(base_url()."admin/brand/listbrand");
