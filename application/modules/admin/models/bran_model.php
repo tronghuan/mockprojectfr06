@@ -6,7 +6,7 @@
  * Time: 1:55 PM
  */
 class Brand_model extends CI_Model{
-    protected $_table = 'tbl_brand';
+    protected $_table = 'brand';
     protected $_primary = 'brand_id';
     public function __construct(){
         parent::__construct();

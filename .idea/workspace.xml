@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64d614bb-8de0-47f0-99cd-5e5718bf2ab8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/admin/models/bran_model.php" afterPath="$PROJECT_DIR$/application/modules/admin/models/bran_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/admin/controllers/brand.php" afterPath="$PROJECT_DIR$/application/modules/admin/controllers/brand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/admin/models/brand_model.php" afterPath="$PROJECT_DIR$/application/modules/admin/models/brand_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/admin/models/user_model.php" afterPath="$PROJECT_DIR$/application/modules/admin/models/user_model.php" />
     </list>
     <ignored path="mockprojectfr06.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,110 +28,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="user.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="user.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/modules/admin/controllers/user.php">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-            <state line="49" column="0" selection-start="1525" selection-end="1525" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1462">
-=======
-            <state line="28" column="37" selection-start="583" selection-end="583" vertical-scroll-proportion="0.56751466" vertical-offset="186" max-vertical-offset="1513">
->>>>>>> origin/ThinhLD
-=======
-            <state line="46" column="3" selection-start="1389" selection-end="1389" vertical-scroll-proportion="0.28619528" vertical-offset="612" max-vertical-offset="1462">
->>>>>>> c3eb8baa870b87126a15560a91a82cce882c4e7e
+            <state line="53" column="0" selection-start="1711" selection-end="1711" vertical-scroll-proportion="-24.192308" vertical-offset="272" max-vertical-offset="1513">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <file leaf-file-name="brand.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/modules/admin/controllers/brand.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="52" selection-start="1588" selection-end="1588" vertical-scroll-proportion="0.74242425" vertical-offset="358" max-vertical-offset="952">
-=======
-      <file leaf-file-name="user_model.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/modules/admin/models/user_model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="1086" selection-end="1086" vertical-scroll-proportion="-11.0" vertical-offset="479" max-vertical-offset="1003">
->>>>>>> origin/ThinhLD
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/modules/admin/views/layout/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state line="33" column="59" selection-start="1585" selection-end="1585" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="714">
-=======
-            <state line="11" column="23" selection-start="386" selection-end="386" vertical-scroll-proportion="-5.269231" vertical-offset="50" max-vertical-offset="561">
->>>>>>> origin/ThinhLD
-=======
-      <file leaf-file-name="home.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/modules/admin/controllers/home.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="5" selection-start="181" selection-end="181" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="323">
->>>>>>> c3eb8baa870b87126a15560a91a82cce882c4e7e
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-=======
       <file leaf-file-name="brand.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/modules/admin/controllers/brand.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="22" selection-start="671" selection-end="671" vertical-scroll-proportion="-10.153846" vertical-offset="178" max-vertical-offset="748">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="autoload.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state line="46" column="43" selection-start="1479" selection-end="1479" vertical-scroll-proportion="28.884615" vertical-offset="1533" max-vertical-offset="2057">
-=======
-            <state line="4" column="91" selection-start="213" selection-end="213" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="561">
->>>>>>> c3eb8baa870b87126a15560a91a82cce882c4e7e
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="update.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/modules/admin/views/brand/update.php">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state line="5" column="7" selection-start="231" selection-end="231" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="187">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="update.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/modules/admin/views/user/update.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="204">
-=======
-            <state line="1" column="16" selection-start="35" selection-end="35" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="136">
->>>>>>> c3eb8baa870b87126a15560a91a82cce882c4e7e
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/modules/admin/views/layout/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="7" selection-start="87" selection-end="87" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
-<<<<<<< HEAD
+            <state line="9" column="30" selection-start="181" selection-end="181" vertical-scroll-proportion="11.019608" vertical-offset="715" max-vertical-offset="1309">
               <folding />
             </state>
           </provider>
@@ -137,13 +49,8 @@
       <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/config/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="6256">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="1.9615384" vertical-offset="51" max-vertical-offset="6256">
               <folding />
-=======
-              <folding>
-                <marker date="1408411285550" expanded="true" signature="23:63" placeholder="..." />
-              </folding>
->>>>>>> c3eb8baa870b87126a15560a91a82cce882c4e7e
             </state>
           </provider>
         </entry>
@@ -151,13 +58,57 @@
       <file leaf-file-name="database.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/config/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="34" selection-start="2850" selection-end="2850" vertical-scroll-proportion="0.0" vertical-offset="664" max-vertical-offset="1258">
+            <state line="53" column="43" selection-start="2744" selection-end="2744" vertical-scroll-proportion="-16.961538" vertical-offset="460" max-vertical-offset="1258">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
->>>>>>> origin/ThinhLD
+      <file leaf-file-name="user_model.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/modules/admin/models/user_model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="30" selection-start="188" selection-end="188" vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="1003">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bran_model.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/modules/admin/models/bran_model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="25" selection-start="152" selection-end="152" vertical-scroll-proportion="-2.1764705" vertical-offset="25" max-vertical-offset="629">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="brand_model.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/modules/admin/models/brand_model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="45" selection-start="586" selection-end="586" vertical-scroll-proportion="0.620438" vertical-offset="0" max-vertical-offset="548">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminBaseController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/core/AdminBaseController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="391">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/modules/admin/views/layout/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="59" selection-start="1661" selection-end="1661" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="714">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -176,43 +127,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-<<<<<<< HEAD
-=======
-        <option value="$PROJECT_DIR$/application/config/config.php" />
-        <option value="$PROJECT_DIR$/application/modules/admin/views/layout/layout.php" />
-        <option value="$PROJECT_DIR$/application/core/AdminBaseController.php" />
->>>>>>> c3eb8baa870b87126a15560a91a82cce882c4e7e
-        <option value="$PROJECT_DIR$/application/core/HomeBaseController.php" />
         <option value="$PROJECT_DIR$/application/modules/admin/controllers/bran.php" />
         <option value="$PROJECT_DIR$/application/modules/admin/views/user/loginview.php" />
+        <option value="$PROJECT_DIR$/application/config/database.php" />
         <option value="$PROJECT_DIR$/application/config/autoload.php" />
         <option value="$PROJECT_DIR$/application/modules/admin/views/layout/footer.php" />
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/application/modules/admin/controllers/user.php" />
         <option value="$PROJECT_DIR$/application/modules/admin/views/home/home.php" />
         <option value="$PROJECT_DIR$/application/modules/admin/controllers/home.php" />
         <option value="$PROJECT_DIR$/application/config/routes.php" />
-        <option value="$PROJECT_DIR$/application/modules/admin/models/brand_model.php" />
-        <option value="$PROJECT_DIR$/application/modules/admin/controllers/brand.php" />
         <option value="$PROJECT_DIR$/application/modules/admin/views/brand/search_brand.php" />
         <option value="$PROJECT_DIR$/public/css/admin/style.css" />
-=======
-        <option value="$PROJECT_DIR$/public/css/admin/style.css" />
-        <option value="$PROJECT_DIR$/application/modules/admin/controllers/user.php" />
-        <option value="$PROJECT_DIR$/application/modules/admin/views/home/home.php" />
-        <option value="$PROJECT_DIR$/application/modules/admin/controllers/home.php" />
-        <option value="$PROJECT_DIR$/application/modules/admin/controllers/hghg.php" />
-        <option value="$PROJECT_DIR$/application/modules/admin/models/user_model.php" />
-        <option value="$PROJECT_DIR$/application/modules/admin/views/brand/update.php" />
-        <option value="$PROJECT_DIR$/application/modules/admin/models/bran_model.php" />
-        <option value="$PROJECT_DIR$/application/config/database.php" />
->>>>>>> origin/ThinhLD
         <option value="$PROJECT_DIR$/application/modules/admin/views/layout/header.php" />
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/application/modules/admin/controllers/brand.php" />
-        <option value="$PROJECT_DIR$/application/modules/admin/controllers/user.php" />
-=======
->>>>>>> c3eb8baa870b87126a15560a91a82cce882c4e7e
+        <option value="$PROJECT_DIR$/application/modules/admin/models/user_model.php" />
+        <option value="$PROJECT_DIR$/application/modules/admin/models/bran_model.php" />
+        <option value="$PROJECT_DIR$/application/modules/admin/models/brand_model.php" />
       </list>
     </option>
   </component>
@@ -220,7 +150,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1378" />
+    <option name="width" value="1382" />
     <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -249,7 +179,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -328,9 +257,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-<<<<<<< HEAD
-              <option name="myItemId" value="hooks" />
-=======
               <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -356,10 +282,6 @@
               <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -383,63 +305,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mockprojectfr06" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mockprojectfr06" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brand" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mockprojectfr06" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mockprojectfr06" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -466,26 +332,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
->>>>>>> origin/ThinhLD
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockprojectfr06" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mockprojectfr06" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-<<<<<<< HEAD
-    <property name="options.lastSelected" value="vcs.Git" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
-=======
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../hop" />
     <property name="FullScreen" value="false" />
->>>>>>> c3eb8baa870b87126a15560a91a82cce882c4e7e
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -535,33 +411,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
-<<<<<<< HEAD
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
-=======
-    <frame x="-8" y="-8" width="1378" height="754" extended-state="0" />
-=======
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
->>>>>>> c3eb8baa870b87126a15560a91a82cce882c4e7e
     <editor active="true" />
->>>>>>> origin/ThinhLD
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.534407" sideWeight="0.65479875" order="0" side_tool="false" content_ui="combo" />
-=======
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27887538" sideWeight="0.65479875" order="0" side_tool="false" content_ui="combo" />
->>>>>>> origin/ThinhLD
-=======
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.261347" sideWeight="0.65479875" order="0" side_tool="false" content_ui="combo" />
->>>>>>> c3eb8baa870b87126a15560a91a82cce882c4e7e
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23572475" sideWeight="0.65479875" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -571,6 +429,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34520122" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -591,38 +450,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/application/modules/admin/controllers/user.php</url>
-          <line>49</line>
+          <line>52</line>
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="1" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/application/modules/admin/views/user/loginview.php">
-=======
-    <entry file="file://$PROJECT_DIR$/application/modules/admin/views/user/insertuser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="604" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/admin/views/user/listuser.php">
->>>>>>> c3eb8baa870b87126a15560a91a82cce882c4e7e
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="4760" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="45" selection-start="2746" selection-end="2746" vertical-scroll-proportion="0.0" vertical-offset="409" max-vertical-offset="1258" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="40" selection-start="1670" selection-end="1670" vertical-scroll-proportion="-13.730769" vertical-offset="561" max-vertical-offset="2057" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="188" column="9" selection-start="5989" selection-end="5989" vertical-scroll-proportion="0.35628226" vertical-offset="2989" max-vertical-offset="3570" />
@@ -631,76 +465,11 @@
     <entry file="file://$PROJECT_DIR$/application/modules/admin/views/layout/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="7" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204" />
-=======
-    <entry file="file://$PROJECT_DIR$/public/css/admin/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="187" column="0" selection-start="2918" selection-end="2918" vertical-scroll-proportion="0.0" vertical-offset="1522" max-vertical-offset="3281" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="188" column="9" selection-start="5989" selection-end="5989" vertical-scroll-proportion="0.35628226" vertical-offset="2989" max-vertical-offset="3570" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/admin/views/home/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="16" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="136" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/admin/controllers/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state line="7" column="5" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="323" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/admin/views/user/listuser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="571" />
->>>>>>> origin/ThinhLD
-=======
-        <state line="187" column="0" selection-start="2918" selection-end="2918" vertical-scroll-proportion="0.0" vertical-offset="1522" max-vertical-offset="3281">
-          <folding />
-        </state>
->>>>>>> c3eb8baa870b87126a15560a91a82cce882c4e7e
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="1.9615384" vertical-offset="51" max-vertical-offset="6256" />
-=======
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="6256">
-          <folding />
-        </state>
->>>>>>> origin/ThinhLD
-=======
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="1.9615384" vertical-offset="51" max-vertical-offset="6256">
-          <folding />
-        </state>
->>>>>>> c3eb8baa870b87126a15560a91a82cce882c4e7e
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/config/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-<<<<<<< HEAD
         <state line="40" column="39" selection-start="1433" selection-end="1433" vertical-scroll-proportion="-18.307692" vertical-offset="204" max-vertical-offset="867" />
-=======
-        <state line="188" column="9" selection-start="5989" selection-end="5989" vertical-scroll-proportion="0.35628226" vertical-offset="2989" max-vertical-offset="3570">
-          <folding />
-        </state>
->>>>>>> c3eb8baa870b87126a15560a91a82cce882c4e7e
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/admin/models/user_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="22" selection-start="849" selection-end="849" vertical-scroll-proportion="0.5858586" vertical-offset="332" max-vertical-offset="952" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/admin/models/brand_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="23" selection-start="645" selection-end="645" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="527" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/admin/views/brand/search_brand.php">
@@ -710,126 +479,82 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/admin/style.css">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state line="149" column="0" selection-start="2248" selection-end="2248" vertical-scroll-proportion="0.0" vertical-offset="2066" max-vertical-offset="3825" />
-=======
-        <state line="56" column="34" selection-start="2850" selection-end="2850" vertical-scroll-proportion="0.0" vertical-offset="664" max-vertical-offset="1258">
-          <folding />
-=======
-        <state line="6" column="7" selection-start="87" selection-end="87" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
-          <folding>
-            <marker date="1408411285550" expanded="true" signature="23:63" placeholder="..." />
-          </folding>
->>>>>>> c3eb8baa870b87126a15560a91a82cce882c4e7e
-        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/admin/controllers/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="5" selection-start="181" selection-end="181" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="323" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/admin/views/home/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="16" selection-start="35" selection-end="35" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="136" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/admin/views/layout/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="23" selection-start="386" selection-end="386" vertical-scroll-proportion="-5.269231" vertical-offset="50" max-vertical-offset="561">
+        <state line="33" column="59" selection-start="1661" selection-end="1661" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="714">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/core/AdminBaseController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="19" selection-start="442" selection-end="442" vertical-scroll-proportion="0.45419848" vertical-offset="0" max-vertical-offset="524">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="620">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="43" selection-start="1479" selection-end="1479" vertical-scroll-proportion="28.884615" vertical-offset="1533" max-vertical-offset="2057">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="1.9615384" vertical-offset="51" max-vertical-offset="6256">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/admin/views/brand/update.php">
+    <entry file="file://$PROJECT_DIR$/application/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state line="5" column="7" selection-start="231" selection-end="231" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="187">
-=======
-        <state line="1" column="16" selection-start="35" selection-end="35" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="136">
->>>>>>> c3eb8baa870b87126a15560a91a82cce882c4e7e
-          <folding />
-        </state>
->>>>>>> origin/ThinhLD
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/admin/controllers/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <state line="7" column="5" selection-start="181" selection-end="181" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="323" />
-=======
-        <state line="6" column="7" selection-start="87" selection-end="87" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
-=======
-        <state line="7" column="5" selection-start="181" selection-end="181" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="323">
->>>>>>> c3eb8baa870b87126a15560a91a82cce882c4e7e
-          <folding />
-        </state>
->>>>>>> origin/ThinhLD
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/admin/controllers/brand.php">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state line="1" column="16" selection-start="35" selection-end="35" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="136" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/admin/views/layout/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state line="33" column="59" selection-start="1585" selection-end="1585" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="714">
-=======
-        <state line="26" column="22" selection-start="671" selection-end="671" vertical-scroll-proportion="-10.153846" vertical-offset="178" max-vertical-offset="748">
-=======
-        <state line="4" column="91" selection-start="213" selection-end="213" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="561">
->>>>>>> c3eb8baa870b87126a15560a91a82cce882c4e7e
+        <state line="53" column="43" selection-start="2744" selection-end="2744" vertical-scroll-proportion="-16.961538" vertical-offset="460" max-vertical-offset="1258">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/admin/views/user/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="550">
->>>>>>> origin/ThinhLD
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/application/modules/admin/controllers/user.php">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state line="49" column="0" selection-start="1525" selection-end="1525" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1462">
-=======
+        <state line="53" column="0" selection-start="1711" selection-end="1711" vertical-scroll-proportion="-24.192308" vertical-offset="272" max-vertical-offset="1513">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/admin/models/user_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1086" selection-end="1086" vertical-scroll-proportion="-11.0" vertical-offset="479" max-vertical-offset="1003">
->>>>>>> origin/ThinhLD
-=======
-        <state line="46" column="3" selection-start="1389" selection-end="1389" vertical-scroll-proportion="0.28619528" vertical-offset="612" max-vertical-offset="1462">
->>>>>>> c3eb8baa870b87126a15560a91a82cce882c4e7e
+        <state line="9" column="30" selection-start="188" selection-end="188" vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="1003">
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/application/modules/admin/controllers/brand.php">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state line="47" column="52" selection-start="1588" selection-end="1588" vertical-scroll-proportion="0.74242425" vertical-offset="358" max-vertical-offset="952">
-=======
-        <state line="28" column="37" selection-start="583" selection-end="583" vertical-scroll-proportion="0.56751466" vertical-offset="186" max-vertical-offset="1513">
->>>>>>> origin/ThinhLD
+        <state line="9" column="30" selection-start="181" selection-end="181" vertical-scroll-proportion="11.019608" vertical-offset="715" max-vertical-offset="1309">
           <folding />
         </state>
       </provider>
     </entry>
-=======
->>>>>>> c3eb8baa870b87126a15560a91a82cce882c4e7e
+    <entry file="file://$PROJECT_DIR$/application/modules/admin/models/bran_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="25" selection-start="152" selection-end="152" vertical-scroll-proportion="-2.1764705" vertical-offset="25" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/admin/models/brand_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="45" selection-start="586" selection-end="586" vertical-scroll-proportion="0.620438" vertical-offset="0" max-vertical-offset="548">
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
 
