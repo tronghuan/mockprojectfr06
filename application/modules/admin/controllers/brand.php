@@ -18,10 +18,19 @@ class Brand extends AdminBaseController{
         $id = $this->uri->segment(4);
         $this->brand_model->del($id);
         redirect(base_url()."admin/user/listbrand");
-        exit();
     }
     public function update(){
-
+        $id = $this->uri->segment(4);
+        if($this->input->post('submit') != NULL){
+        $name = $this->input->post('txt_name');
+        $desc = $this->input->post('txt_desc');
+        $data = array(
+            'name' => $name,
+            'desc' => $desc
+        );
+        $this->brand_model->update($data,$id);
+        redirect(base_url()."admin/brand/listbrand");
+    }
     }
 
 }

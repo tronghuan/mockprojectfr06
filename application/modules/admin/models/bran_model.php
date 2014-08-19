@@ -8,7 +8,6 @@
 class Brand_model extends CI_Model{
     protected $_table = 'tbl_brand';
     protected $_primary = 'brand_id';
-
     public function __construct(){
         parent::__construct();
     }
@@ -20,9 +19,14 @@ class Brand_model extends CI_Model{
         return $this->db->get($this->_table)->row_array();
     }
 
-    public function deleteUser($id){
+    public function delete($id){
         $this->db->where($this->_primary,$id);
         $this->db->delete($this->_table);
     }
+    public function update($data, $id){
+        $this->db->where($this->_primary,$id);
+        $this->db->update($this->_table, $data);
+    }
+
 
 }
