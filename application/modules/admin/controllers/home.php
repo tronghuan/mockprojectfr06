@@ -11,4 +11,5 @@ class home extends CI_Controller{
         //$this->load->view('home/home', $data);
         $this->load->view('layout/footer');
     }
+	dongenverdie
 }
