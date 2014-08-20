@@ -1,7 +1,6 @@
-</div>
+</div> <!-- // end div id = 'main' -->
 <div id="footer">
-    <p>Training PHP Project </p>
-</div>
+    Training PHP Project
 </div>
 </body>
 </html>

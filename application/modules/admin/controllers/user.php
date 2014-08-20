@@ -5,17 +5,45 @@
  * Date: 8/18/14
  * Time: 1:54 PM
  */
-class User extends AdminBaseController{
+class User extends CI_Controller{
     function __construct(){
         parent::__construct();
-        $this->load->helper("url");
+        $this->load->helper("url", "form");
         $this->load->library("form_validation");
         $this->load->model("user_model");
-    }
-    public function index(){
+        $this->load->library('pagination');
+        //$this->load->model("config_model");
 
     }
+    public function index(){
+        redirect(base_url("admin/user/listuser"));
+    }
     public function listuser(){
+        $sortType = ($this->uri->segment(5)) ? $this->uri->segment(5) : 'asc';
+        $column = ($this->uri->segment(4)) ? $this->uri->segment(4) : 'user_id';
+
+        //$config['per_page'] = $this->config_model->getPerpage();
+        $page = ($this->uri->segment(6)) ? $this->uri->segment(6) : 1;
+        //$config['base_url']   = base_url("admin/user/listuser/$column/$sortType/");
+
+        $config['use_page_numbers'] = TRUE;
+        $config['uri_segment'] = 6;
+        $config['next_link'] = "Sau";
+        $config['prev_link'] = "Trước";
+        //$this->pagination->initialize($config); 
+
+        //$start = ($page - 1) * $config['per_page'];
+
+        //$data['listuser'] = $this->user_model->get_order($column,$sortType,$start,$config['per_page']);
+
+        //$data['link'] = $this->pagination->create_links();
+        //$data['per'] = $config['per_page'];
+        $data['sortType'] = $sortType;
+        // $data['show_all'] = $_SESSION['show_all'];
+        $data['column'] = $column;
+
+        $data['template'] = "user/listuser";
+        $this->load->view("layout/layout",$data);
 
     }
     public function insertUser(){
@@ -25,60 +53,55 @@ class User extends AdminBaseController{
 
     }
     public function delete(){
-        $id = $this->uri->segment(4);
-            $this->user_model->deleteUser($id);
-            redirect(base_url()."admin/user/listuser");
-
-        }
-    public function update(){
 
     }
-    public function login(){
-        if($this->input->post("btnLogin")){
-            $this->form_validation->set_rules('txtUser', 'Username', 'trim|requuired');
-            $this->form_validation->set_rules('txtPass', 'Password', 'trim|required|min_length[5]|max_length[12]');
-            $this->form_validation->set_message("required", "%s không được bỏ trống");
-            $this->form_validation->set_error_delimiters('<div class="error">', '</div>');
-            if($this->form_validation->run()){
-                $dataUser = array(
-                    "username" => $this->input->post("txtUser"),
-                    "password" => md5($this->input->post("txtPass")),
-                );
-                $check = $this->user_model->isValidate($dataUser);
-                if($check){
-                    $_SESSION['user'] = $check;
-                    redirect(base_url('index.php/admin/home/index'));
-                }else {
-//                    $this->_check = false;
-                    echo "That bai";
-                }
+    public function update(){
+        $user_id = $this->uri->segment(4);
+        $data['userInfo'] = $this->user_model->getUserUpdate($user_id);
 
-            }
+        if($this->input->post("ok")){
+
+            $this->checkFormInput();
+
+            $this->form_validation->set_error_delimiters("<span class='error'>", "</span>");
+            //echo "1";
+            //if($this->form_validation->run()){
+            	//$pass = $this->input->post("user_password");
+            	//if($pass != null){
+            		
+            	//$this->form_validation->set_rules('user_password','Password', 'min_length[6]');
+            	//if($this->form_validation->run()){
+                 $dataUser = array(
+                                "user_name"     =>$this->input->post("user_name"),
+                                "user_password" =>md5($this->input->post("user_password")),
+                                "user_email"    =>$this->input->post("user_email"),
+                                "user_address"  =>$this->input->post("user_address"),
+                                "user_phone"    =>$this->input->post("user_phone"),
+                                "user_gender"   =>$this->input->post("user_gender"),
+                                "user_level"    =>$this->input->post("user_level")
+                            );
+                        
+                 $this->user_model->updateUser($dataUser,$user_id);
+                 //redirect(base_url("index.php/admin/user/listuser"));
+                 echo "update thanh cong";
+            	
+//                redirect(base_url("index.php/admin/user/listuser"));
+            //}
         }
-        $this->load->view("user/loginview");
+        
+        $data['template'] = "user/update";
+        $this->load->view("layout/header");
+        $this->load->view("user/update", $data);
+        $this->load->view("layout/footer");
+  }
+
+    public function login(){
+
     }
     public function logout(){
-        if(isset($_SESSION['user'])){
-            unset($_SESSION['user']);
-        }
-        redirect(base_url('admin/user/index'));
+
     }
     public function checkFormInput(){
-        $this->form_validation->set_rules('usr_name','Username', 'required|min_length[6]');
-        //$this->form_validation->set_rules('usr_password','Password', 'required|min_length[6]');
-        //$this->form_validation->set_rules('usr_retype_password','Retype-Password', 'required|matches[usr_retype_password]');
-        $this->form_validation->set_rules('usr_email','Email', 'required|valid_email');
-        $this->form_validation->set_rules('usr_address','Address', 'required');
-        $this->form_validation->set_rules('usr_phone','Phone', 'required|numeric|min_length[9]|max_length[11]');
-        $this->form_validation->set_rules('usr_gender','Gender', 'required');
 
-        $this->form_validation->set_message("required","%s không được bỏ trống");
-        $this->form_validation->set_message("alpha_numeric","%s chỉ được chứa chữ cái và số");
-        $this->form_validation->set_message("min_length","%s không được nhỏ hơn %d ký tự");
-        $this->form_validation->set_message("max_length","%s không được lớn hơn %d ký tự");
-        $this->form_validation->set_message("matches","%s không khớp");
-        $this->form_validation->set_message("valid_email","%s không đúng định dạng");
-        $this->form_validation->set_message("numeric","%s phải là số");
-        $this->form_validation->set_error_delimiters("<span class='error'>","</span>");
     }
 }

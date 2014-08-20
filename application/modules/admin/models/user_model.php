@@ -11,16 +11,19 @@ class User_model extends CI_Model{
 
     public function __construct(){
         parent::__construct();
+        $this->load->database();
     }
     public function getAll(){
 
     }
-    public function getOnce($id){
-        $this->db->where("user_id = $id");
-        return $this->db->get($this->_table)->row_array();
+    public function getOnce(){
+
     }
     public function getUserUpdate($id){
-
+        
+        $this->db->select('user_name, user_email, user_address, user_phone, user_level, user_gender');
+    	$this->db->where("user_id", $id);
+    	return $this->db->get($this->_table)->row_array();
     }
     public function checkUserName($usr_name){
 
@@ -34,22 +37,23 @@ class User_model extends CI_Model{
     public function get_order($column, $sortType = '', $limit = '', $start = ''){
 
     }
-    public function deleteUser($id){
-
-        $this->db->where($this->_primary,$id);
-        $this->db->delete($this->_table);
+    public function deleteUser($id){}
+    
+    
+    
+    public function updateUser($data, $usr_id = ''){
+            if ($usr_id !== ''){
+                $this->db->where("user_id",$usr_id);
+                $this->db->update($this->_table, $data);
+            } else{
+                $this->db->insert($this->_table,$data);
+            }  
+        
     }
-    public function updateUser($data, $user_id = ''){
-
-    }
-    public function isValidate($dataUser){
-        $data = $this->db->select()->where('user_name',$dataUser['username'])->where('user_password',$dataUser['password'])
-            ->get($this->_table)->row_array();
-        // echo $data;
-        if(count($data)>0){
-            return $dataUser;
-        }else{
-            return false;
-        }
+    public function is_Validate($dataUser){}
+    
+    public function edit($id = '')
+    {
+        if ($id !== '') echo $id;
     }
 }
