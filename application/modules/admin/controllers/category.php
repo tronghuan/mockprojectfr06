@@ -17,9 +17,6 @@ class Category extends CI_Controller{
             $all_cate_id = $value['category_id'];
         }
         
-        //$parent_id = $this->category_model->detail($id)['category_parentld'];
-        
-        
         $this->category_model->delete_category($id);
         
         echo 'xoa category thanh cong';
