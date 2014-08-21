@@ -48,4 +48,27 @@ class brand extends CI_Controller{
         $this->load->view("brand/search_brand",$result);
         $this->load->view("layout/footer");
     }
+
+    public function show_brand_id() {
+        $id = $this->uri->segment(4);
+        $data['single_brand'] = $this->brand_model->getOnce($id);
+        $this->load->view('update', $data);
+    }
+    public function delete(){
+
+    }
+    public function update(){
+        $id = $this->uri->segment(4);
+        if($this->input->post('submit') != NULL){
+        $name = $this->input->post('txt_name');
+        $desc = $this->input->post('txt_desc');
+        $data = array(
+            'brand_name' => $name,
+            'brand_desc' => $desc
+        );
+        $this->brand_model->update($id,$data);
+        redirect(base_url()."admin/brand/listbrand");
+    }
+
+    }
 }
