@@ -9,7 +9,7 @@
 echo "<div class='dd' id='catetree'>";?>
     <div class="cf nestable-lists">
 
-        <div class="dd" id="nestable3">
+        <div class="dd" id="nestable">
 
 <?php
 echo $listitem;
