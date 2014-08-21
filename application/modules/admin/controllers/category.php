@@ -54,9 +54,6 @@ class Category extends CI_Controller{
         return $ret."</ol>";
     }
     public function test(){
-        if(null == null){
-            echo "hello";
-        }
         $cate = $this->category_model->get_all_category();
         $ret = $this->listCat($cate);
         echo $ret; die();

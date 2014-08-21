@@ -43,7 +43,7 @@
                     <li><a href="<?php echo base_url(); ?>index.php/admin/user/listuser">Quản
                             lý thành viên</a></li>
                     <li><a href="<?php echo base_url(); ?>index.php/admin/category/move">Quản lý chuyên mục</a></li>
-                    <li><a href="#">Quản lý sản phẩm</a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/admin/product/listproduct">Quản lý sản phẩm</a></li>
                     <li><a href="<?php echo base_url(); ?>index.php/admin/brand/search">Quản lý nhãn hiệu</a></li>
                     <li><a href="#">Quản lý đơn hàng </a></li>
                     <li><a href="#">Quản lý cấu hình </a></li>
