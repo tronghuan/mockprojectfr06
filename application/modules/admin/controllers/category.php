@@ -41,8 +41,8 @@ class Category extends CI_Controller{
         array_multisort($temp[$orderby], SORT_ASC, $data);
         foreach($data as $key=>$value){
             if($parent == $value['category_parentId']){
-                $ret .= "<li class='dd-item' data-id='".
-                    $value['category_id']."'><div class='dd-handle'>".
+                $ret .= "<li class='dd3-item' data-id='".
+                    $value['category_id']."'><div class='dd3-handle'>".
                     $value['category_name']."</div>";
                 $sub = $this->listCat($data, $value['category_id'], $lvl+1);
                 if($sub != "<ol class='dd-list'></ol>"){
@@ -51,7 +51,9 @@ class Category extends CI_Controller{
                 $ret .= "</li>";
             }
         }
-        return $ret."</ol>";
+        $ret .= "</ol>";
+        echo "<pre>".$ret."</pre>";die();
+        return $ret;
     }
     public function test(){
         $cate = $this->category_model->get_all_category();
