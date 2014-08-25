@@ -12,6 +12,7 @@ class Category extends CI_Controller{
         $this->load->model("category_model");
         $this->load->helper("url");
     }
+    //HuanDT Account1
     public function move(){
         $result = array();
 //        if($this->input->post("submit")){
@@ -37,7 +38,7 @@ class Category extends CI_Controller{
                 $temp[$key][] = $value;
             }
         }
-        $orderby = "category_orderby";
+        $orderby = "category_order";
         array_multisort($temp[$orderby], SORT_ASC, $data);
         foreach($data as $key=>$value){
             if($parent == $value['category_parentId']){
@@ -85,4 +86,45 @@ class Category extends CI_Controller{
         $this->category_model->move_category($parent);
         $this->category_model->set_order($order);
     }
+    // END HuanDT
+    // Start ThinhLD
+    public function update(){
+        $id = $this->uri->segment(3);
+        $data['single_category'] = $this->Category_model->getOnce($id);
+        $data['all_category']=$this->Category_model->getall($id);
+
+
+        if($this->input->post('submit') != NULL){
+            $name = $this->input->post('txt_category');
+            $parent = $this->input->post('Parent');
+            $this->form_validation->set_rules("txt_category","Name", "required");
+            $this->form_validation->set_message("required", "%s Không được bỏ trống");
+            $this->form_validation->set_message("is_unique", "%s Đã trùng");
+            if ($this->form_validation->run() == FALSE){
+
+
+            }else{
+
+                if($parent == 0){
+
+                    $data = array(
+                    'category_name' => $name,
+                    'category_parentId' => NULL
+                    );
+                }else{
+                    $data = array(
+                        'category_name' => $name,
+                        'category_parentId' => $parent
+                    );
+                }
+                $this->Category_model->update($data,$id);
+                echo "Đã upadte thành công";
+            }
+        }
+        $data['title'] = "Update category";
+        $this->load->view("layout/header", $data);
+        $this->load->view('category/category_update', $data);
+        $this->load->view("layout/footer", $data);
+    }
+    // END ThinhLD
 }

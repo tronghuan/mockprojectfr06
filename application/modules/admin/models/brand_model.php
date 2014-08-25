@@ -11,7 +11,7 @@ class brand_model extends CI_Model{
         parent::__construct();
         $this->load->database();
     }
-    public function get_all_brand(){
+    public function getAllBrand(){
         $this->db->select("*");
         $query = $this->db->get($this->_table);
         $result = array();

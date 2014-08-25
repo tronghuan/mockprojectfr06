@@ -28,4 +28,32 @@ class Category_model extends CI_Model{
             $this->db->update_batch($this->_table, $data, $this->_category_id);
         }
     }
+
+    //ThinhLD
+    public function getall($id){
+            $this->db->select('*');
+            $this->db->from($this->_table);
+            $this->db->where($this->_category_id . '!=', $id);
+            $query = $this->db->get();
+            $result = $query->result_array();
+            return $result;
+     }
+
+   public function getOnce($id){
+        $this->db->select('*');
+        $this->db->from($this->_table);
+        $this->db->where($this->_category_id, $id);
+        $query = $this->db->get();
+        $result = $query->result_array();
+        return $result;
+    }
+
+    /** public function delete($id){
+
+    }*/
+   public function update($data, $id){
+        $this->db->where($this->_primary,$id);
+        $this->db->update($this->_table, $data);
+   }
+    // END ThinhLD
 }
