@@ -21,7 +21,7 @@ class Category extends CI_Controller{
         $result['info'] = $this->category_model->get_all_category();
         $result['listitem'] = $this->listCat($result['info']);
         $result['title'] = "Move categories";
-        $result['template'] = "category/category_move";//++++++++++
+        // $result['template'] = "category/category_move";//++++++++++
         $this->load->view("layout/header");
         $this->load->view("category/category_move", $result);
         $this->load->view("layout/footer");
@@ -37,7 +37,7 @@ class Category extends CI_Controller{
                 $temp[$key][] = $value;
             }
         }
-        $orderby = "cate_orderby";
+        $orderby = "category_orderby";
         array_multisort($temp[$orderby], SORT_ASC, $data);
         foreach($data as $key=>$value){
             if($parent == $value['category_parentId']){

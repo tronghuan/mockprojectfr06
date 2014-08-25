@@ -16,7 +16,7 @@ class brand extends CI_Controller{
 
     }
     public function search(){
-        $brands = $this->brand_model->get_all_brand();
+        $brands = $this->brand_model->getAllBrand();
         $result = array();
         if ($this->input->post("submit")){
             $keywords = $this->input->post("search");
